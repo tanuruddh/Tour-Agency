@@ -1,0 +1,119 @@
+.footer{
+    width: 82vw;
+   min-height: 277px;
+   margin-left: 9.5vw;
+   margin-top: 151px; 
+}
+
+.footer .main_div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer .main_div div{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    margin-left: 30px;
+    height: 153px;
+}
+
+.footer .main_div div h2{
+    font-family: "Gilroy-Bold";
+font-size: 44px;
+font-weight: normal;
+font-style: normal;
+text-align: left;
+color: #181e4b;
+margin-bottom: 16px;
+}
+
+.footer .main_div div p{
+    font-family: "Poppins";
+font-size: 13px;
+font-weight: 500;
+line-height: 16px;
+font-style: normal;
+text-align: left;
+color: #5e6282;
+width: 207px;
+height: 48px;
+}
+
+.footer .main_div div h3{
+    font-family: "Gilroy-ExtraBold";
+font-size: 21px;
+font-weight: normal;
+line-height: 26px;
+font-style: normal;
+text-align: left;
+color: #080809;
+margin-bottom: 32px;
+}
+
+.footer .main_div div span{
+    font-family: "Poppins";
+font-size: 18px;
+font-weight: 500;
+line-height: 22px;
+font-style: normal;
+text-align: left;
+color: #5e6282;
+margin-bottom: 14px;
+}
+
+.footer .main_div .btn_div p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer .main_div div  .i{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 177px;
+}
+.footer .main_div div .btn_div a{
+    display: inline-block;
+  width: 50px; /* Adjust the size as needed */
+  height: 50px; /* Adjust the size as needed */
+  border-radius: 50%; /* Ensures the button is circular */
+  background-color: #1da1f2; /* Twitter's brand color */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Shadow */
+  text-align: center;
+  line-height: 50px; 
+  visibility: hidden;
+}
+
+.footer .main_div div .btn_div .twitter_btn i{
+    color: white; /* Color of the Twitter logo */
+    font-size: 24px;
+}
+
+.footer .main_div div .download_btn{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 20px;
+    
+}
+
+.footer .main_div div button{
+    width: 107px;
+height: 35px;
+
+border-radius: 17.5px;
+color: #fff;
+
+background: #080809
+}
+
+@media only screen and (max-width: 750px) {
+    .footer .main_div{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,51 @@
+.logo{
+    width: 10rem;
+    height: 3.4rem;
+    margin-left: 8.75vw;
+    margin-top: 5.2rem;
+
+}
+
+.logo .span {
+    font-weight: 700;
+    font-size:30px;
+    margin-left: -2px;
+    margin-top: 0px;
+}
+.logo .o{
+    font-weight: 700;
+    font-size:30px;
+    height: 18px;
+    width: 18px;
+    display: inline-block;    
+    
+
+}
+
+@media only screen and (min-width: 1450px) {
+    .logo{
+        margin-left: 300px;
+    }
+}
+/* .logo .i1 {
+    border-radius: 50%;
+    background-color: #F1A501;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    position: absolute;
+    top:7.3rem;
+    left:41.3rem
+    
+}
+
+.logo .i2{
+    border-radius: 50%;
+    background-color: #F1A501;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    position: absolute;
+    top:7.3rem;
+    left:19.5vw
+} */

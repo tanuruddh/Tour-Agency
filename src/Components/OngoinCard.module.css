@@ -1,0 +1,67 @@
+.ongoin_card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 263px;
+    height: 129px;
+    position: absolute;
+top: 278px;
+left: 222px;
+background-color: #fff;
+}
+
+.ongoin_card img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+.ongoin_card .about{
+    margin-left: 11px;
+    margin-top: 18px;
+    width: 170px;
+}
+
+.ongoin_card .about p{
+    font-size: 14px;
+font-weight: 500;
+line-height: 17px;
+font-style: normal;
+text-align: left;
+color: #84829a;
+margin-top: 6px;
+}
+
+.ongoin_card .about h2{
+    font-family: "Poppins";
+font-size: 18px;
+font-weight: 500;
+line-height: 22px;
+font-style: normal;
+text-align: left;
+color: #080809;
+margin-top: 6px;
+}
+
+.ongoin_card .about .progress_no{
+    margin-top: 14px;
+}
+
+.ongoin_card .about .progress{
+    width: 100%;
+  height: 6px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.ongoin_card .about .progress_bar{
+    width: 50%;
+  height: 100%;
+  background-color: #8A79DF;
+  transition: width 0.3s ease-in-out;
+}

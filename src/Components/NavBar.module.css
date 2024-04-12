@@ -1,0 +1,29 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 100%;
+
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10em; */
+    max-width: 98vw;
+    list-style-type: none;
+}
+
+.navbar ul ul{
+    gap:6vw;
+    display: flex;
+    justify-content:left;
+    height: 3.4rem;
+    margin-left: 16.5vw;
+    margin-top: 5.2rem;
+    font-size: 13px;
+    font-weight: 300;
+    color: #212832;
+    /* max-width: */
+}

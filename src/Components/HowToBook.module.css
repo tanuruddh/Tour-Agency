@@ -1,0 +1,45 @@
+.bookdiv{
+    width: 82vw;
+    height: 492px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 186px;
+    margin-left: 9.5vw;
+
+}
+
+.bookdiv .stepcontent{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.bookdiv .stepcontent p{
+    font-family: "Poppins";
+font-size: 18px;
+font-weight: normal;
+font-style: normal;
+color: #5e6282;
+}
+
+.bookdiv .stepcontent h2{
+    width: 511px;
+height: 130px;
+    font-family: "Volkhov";
+font-size: 50px;
+font-weight: bold;
+font-style: normal;
+text-align: left;
+color: #14183e;
+line-height: 5rem;
+margin-top: 15px;
+
+}
+
+@media only screen and (max-width: 750px) {
+    .bookdiv{
+        flex-direction: column;
+    }
+}

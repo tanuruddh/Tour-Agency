@@ -1,0 +1,90 @@
+.services{
+    max-width: 83.4vw;
+    min-height: 53vh;
+    margin-left: 9.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    /* justify-content: center; */
+}
+
+.services .para1{
+    width: 101px;
+    height: 27px;
+
+
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    color: #5e6282;
+}
+
+.services .head2{
+    font-family: "Volkhov";
+    font-size: 50px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    color: #14183e;
+    margin-top: 10px;
+}
+
+.services div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.services .rectangle{
+    position: absolute;
+width: 50px;
+height: 49px;
+transform: rotate(-180deg);
+border-top-left-radius: 18px;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 5px;
+top: 260px;
+/* left: 110px; */
+margin-left: 90px;
+z-index: -9999;
+
+background: #fff1da
+}
+
+.services .aeroplane{
+    top: 220px;
+    margin-left: -20px;
+}
+
+.services .decore_rectangle{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+
+    border-top-left-radius: 30px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    margin-left: -160px;
+    top: 399px;
+    z-index: -9999;
+
+
+    background: #df6951
+}
+
+.services .aeroplane_para{
+ background-color: #FFFFFF;}
+
+
+
+ @media only screen and (max-width: 750px) {
+    .services div{
+        flex-direction: column;
+    }
+}

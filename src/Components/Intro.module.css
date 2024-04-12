@@ -1,0 +1,135 @@
+.landingpage{
+    width: 82vw;
+    height: 764px;
+    margin-left: 148px;
+    margin-top: 20px;
+}
+
+.landingpage .para1{
+    margin-top: 112px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #DF6951;
+    font-family: Poppins;
+}
+
+.landingpage h1{
+    /* position: relative; */
+    margin-top: 34px;
+    max-width: 60rem;
+    max-height: 267px;
+    font-size: 8.4rem;
+    font-weight: bold;
+    color: #181E4B;
+    line-height: 8.9rem;
+    font-family: Helvetica;
+    /* letter-spacing: -35.71428680419922px; */
+}
+
+.landingpage .para2{
+    /* position: absolute; */
+width: 477px;
+height: 90px;
+
+
+font-family: "Poppins";
+font-size: 16px;
+font-weight: 500;
+line-height: 30px;
+font-style: normal;
+text-align: left;
+color: #5e6282;
+margin-top: 30px;
+}
+
+.container{
+    position: absolute;
+    width: 100vw; /* 50% of viewport width */
+    height: 100vh; /* Full viewport height */
+    overflow: hidden;
+    right: 0;
+    top: 0;
+    z-index: -10000;
+
+}
+
+.container .traveller{
+    width: 765px;
+    height: 764px;
+    position: absolute;
+    top: 105px;
+    right: 7vw;
+    z-index: 10000;
+}
+
+.container .plane1{
+    position: absolute;
+    left: 715px;
+    top: 205px;
+}
+.container .plane2{
+    position: absolute;
+    left: 1212px;
+    top: 252px;
+}
+
+.landingpage .btns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 53px;
+}
+
+.landingpage .btns .findmorebtn{
+    width: 170px;
+height: 60px;
+
+border-radius: 10px;
+
+filter: drop-shadow(0px 20px 35px rgba(241,165,1,0.15 ));
+
+background: #f1a501;
+font-family: "Google Sans";
+font-size: 18px;
+font-weight: 500;
+font-style: normal;
+text-align: center;
+color: #ffffff;
+border: none;
+}
+
+.landingpage .btns .playbtn{
+    width: 52px;
+height: 52px;
+
+filter: drop-shadow(0px 15px 30px rgba(223,105,81,0.3 ));
+
+background: #df6951;
+margin-left: 44px;
+border-radius: 50%;
+border: none;
+}
+
+.landingpage .btns .playbtn i{
+    color: white;
+}
+
+.landingpage .btns p{
+    width: 85px;
+height: 41px;
+
+
+font-family: "Google Sans";
+font-size: 17px;
+font-weight: 500;
+font-style: normal;
+text-align: left;
+color: #686d77;
+margin-left: 21px;
+}
+
+@media only screen and (min-width: 1450px) {
+    .landingpage{
+        margin-left: 300px;
+    }
+}

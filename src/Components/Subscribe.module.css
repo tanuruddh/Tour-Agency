@@ -1,0 +1,82 @@
+.subscribe{
+    width: 82vw;
+    height: 407px;
+    margin-left: 9.5vw;
+    /* padding-top: 407px; */
+    margin-top: 111px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+.subscribe .form_div{
+    position: relative;
+
+width: 1170px;
+height: 407px;
+/* transform: rotate(180deg); */
+opacity: 0.50;
+
+border-top-left-radius: 129px;
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+border-bottom-left-radius: 20px;
+
+
+background: #dfd7f9
+}
+
+.subscribe .form_div p{
+    position: absolute;
+    font-family: "Poppins";
+    /* opacity: 100%; */
+font-size: 33px;
+font-weight: normal;
+line-height: 54px;
+font-style: normal;
+text-align: center;
+color: #5e6282;
+margin-top: 79px;
+width: 850px;
+height: 108;
+margin-left: 154px;
+}
+
+.subscribe .form_div form{
+    position: absolute;
+    margin-top: 261px;
+width: 850px;
+height: 108;
+margin-left: 250px;
+}
+
+.subscribe .form_div form input{
+    width: 421px;
+    height: 68px;
+    border-radius: 10px;
+    background: #ffffff;
+    border: none;
+    outline: none;
+}
+
+.subscribe .form_div form button{
+    width: 180px;
+height: 68px;
+margin-left: 24px;
+
+border-radius: 10px;
+border: #ff946d;
+
+background: #ff946d;
+background: linear-gradient(180deg, 
+#ff946d 0.00%, 
+#ff7d68 100.00%);
+}
+
+@media only screen and (max-width: 750px) {
+    .subscribe{
+        flex-direction: column;
+        display: none;
+    }
+}

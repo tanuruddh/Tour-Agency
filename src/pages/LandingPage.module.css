@@ -1,0 +1,28 @@
+.header{
+   min-height: 5rem;
+    max-width: 100vw;
+    z-index: 1000;
+    
+}
+
+ .container{
+    position: absolute;
+    width: 100vw; /* 50% of viewport width */
+    height: 100vh; /* Full viewport height */
+    overflow: hidden;
+    right: 0;
+    top: 0;
+    z-index: -10000;
+
+}
+.container .decore{
+    width: 766px;
+    height: 873px;
+    position: absolute;
+    top: -149px;
+    right: -62px;
+    z-index: -10000;
+    
+}
+
+
